@@ -1,0 +1,30 @@
+.add-item {
+  display: flex;
+  padding-top: 30px;
+}
+
+.add-item__input {
+  flex-grow: 1;
+  border: 1px solid #007bff;
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 5px 10px;
+}
+
+.add-item__button {
+  background: none;
+  border: 1px solid #007bff;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #007bff;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  &:hover {
+    color: #fff;
+    background-color: #007bff;
+  }
+}

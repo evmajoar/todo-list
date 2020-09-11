@@ -1,0 +1,76 @@
+.todo-list__item {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  border: 1px solid #cbcbcb;
+  border-top: 0;
+
+  &:first-child {
+    border-top: 1px solid #cbcbcb;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  &:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  &:hover {
+    background-color: #eeeeee;
+  }
+}
+
+.todo-list__label {
+  cursor: pointer;
+  font-size: 18px;
+
+  &--done {
+    text-decoration: line-through;
+  }
+
+  &--important {
+    font-weight: 700;
+    color: tomato;
+  }
+}
+
+.todo-list__control {
+  margin-left: auto;
+}
+
+.todo-list__control-button {
+  background: none;
+  border: 1px solid #cbcbcb;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+
+  &--green {
+    color: #28a745;
+    border-color: #28a745;
+
+    &:hover {
+      background-color: #28a745;
+    }
+  }
+
+  &--red {
+    color: #dc3545;
+    border-color: #dc3545;
+
+    &:hover {
+      background-color: #dc3545;
+    }
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:last-child {
+    margin-left: 5px;
+  }
+}

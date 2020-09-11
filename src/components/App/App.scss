@@ -1,0 +1,15 @@
+.app__inner {
+  min-height: 100vh;
+}
+
+.app__inner-container {;
+  max-width: 420px;
+  margin: 100px auto 0;
+  width: 100%;
+}
+
+.app__header {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
